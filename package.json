@@ -1,0 +1,25 @@
+{
+  "name": "codepush-packager",
+  "version": "1.0.0",
+  "description": "custom code-push packge utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "custompackage": "index.js"
+  },
+  "keywords": [
+    "codepush",
+    "packager"
+  ],
+  "author": "jinaiyuanbaojie",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.5.1",
+    "recursive-fs": "^1.0.0",
+    "shelljs": "^0.7.8",
+    "yargs": "^10.0.3",
+    "yauzl": "^2.9.1"
+  }
+}
