@@ -15,3 +15,4 @@ Packager是用于构建`CodePush`补丁包命令行工具，使用`nodejs`开发
 2. 补丁产物放在ReactNative工程的根目录的`iOSBundle`或者`AndroidBundle`文件夹下，压缩包名称为`codepush.zip`。
 ### 注意
 1. windows系统下使用，需要手动将补丁资源打为压缩包。
+2. 查看构建指令的帮助信息执行`custompackage -h`
